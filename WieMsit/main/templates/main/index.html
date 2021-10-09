@@ -14,7 +14,7 @@
 
 	<!-- Font Awesome if you need it -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
 	<link rel="stylesheet" type="text/css" href="{% static 'main/landingpage.css'%}">
 	<!--Replace with your tailwind.css once created-->
@@ -101,7 +101,39 @@
 	background-color:rgb(245, 150, 245);
 }
 #teamimg{
-	border-radius: 30%;;
+	border-radius: 30%;
+ background-color: black;
+}
+#person-info{
+	color: black;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 	</style>
 
@@ -154,7 +186,7 @@
 					</li>
 					<li class="mr-3">
 						<a class="inline-block toggleColour text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-							href="ngolist">Events</a>
+							href="events">Events</a>
 					</li>
 				</ul>
 
@@ -179,7 +211,7 @@
 			<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
 				id="topheader">
 
-				<h1 class="my-4 text-4xl font-bold leading-tight">STRONG WOMEN EMPOWER<br> OTHER WOMEN</h1>
+				<h1 class="my-4 text-4xl font-bold leading-tight">IEEE WOMEN IN ENGINEERING<br>SOCIETY MSIT</h1>
 				<p class="leading-normal text-2xl mb-8">women upliftment initiative</p>
 
 				<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -239,12 +271,12 @@
 				<div class="w-5/6 sm:w-1/2 p-6">
 					<br /><br />
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Who are we?</h3>
-					<p class="text-gray-600 mb-8">IEEE Women in Engineering (WIE) is one of the largest
-				 international professional organizations dedicated to promoting women engineers and
-				 scientists, and inspiring girls around the world to follow their academic interests in
-				 a career in engineering.
-			 IEEE WIE envisions a vibrant community of IEEE women
-				and men collectively using their diverse talents to innovate for the benefit of humanity.
+					<p class="text-gray-600 mb-8">IEEE Women in Engineering (WIE) is one of the largest international
+					 professional organizations dedicated to promoting women engineers and scientists, and
+					 inspiring girls
+					  around the world to follow their academic interests in a career in engineering. IEEE WIE envisions a vibrant community of
+					women and men collectively using their diverse talents to innovate for the benefit of humanity.
+
 
 					</p>
 
@@ -322,70 +354,103 @@
 
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 
+				<div class="flex-1 bg-pink-100 overflow-hidden shadow">
+					<div id="person-info">
+						<img alt="..."
+						src="../../media/ShubhaSharma.jpg"
+							class="shadow-lg rounded  mx-auto" id="teamimg"/>
+							Shubha Sharma
+							<p> about her</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
 				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
+					<div id="person-info">
 						<img alt="..."
 						src="../../media/ShubhaSharma.jpg"
 							class="shadow-lg rounded max-w-full mx-auto" id="teamimg"/>
 							Paras Jain
 							<p> about him</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
 					</div>
 				</div>
 			</div>
 
+
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
 				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
+					<div id="person-info">
 						<img alt="..."
 						src="../../media/ShubhaSharma.jpg"
-							class="shadow-lg rounded max-w-full mx-auto"  id="teamimg"/>
-							riya gandhi
-							<p>hellooo</p>
+							class="shadow-lg rounded max-w-full mx-auto" id="teamimg"/>
+							Paras Jain
+							<p> about him</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
 					</div>
 				</div>
 			</div>
 
+
+
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
 				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
+					<div id="person-info">
 						<img alt="..."
 						src="../../media/ShubhaSharma.jpg"
-							class="shadow-lg rounded max-w-full mx-auto"  id="teamimg" />
+							class="shadow-lg rounded max-w-full mx-auto" id="teamimg"/>
 							Paras Jain
 							<p> about him</p>
-						</div>
-				</div>
-			</div>
-			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
-						<img alt="..."
-						src="../../media/ShubhaSharma.jpg"
-							class="shadow-lg rounded max-w-full mx-auto"  id="teamimg" />
-							Paras Jain
-							<p> about him</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
 					</div>
 				</div>
 			</div>
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
 				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
+					<div id="person-info">
 						<img alt="..."
 						src="../../media/ShubhaSharma.jpg"
-							class="shadow-lg rounded max-w-full mx-auto"  id="teamimg" />
+							class="shadow-lg rounded max-w-full mx-auto" id="teamimg"/>
 							Paras Jain
 							<p> about him</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
 					</div>
 				</div>
 			</div>
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
 				<div class="flex-1 bg-pink-100 rounded-t rounded-b-none overflow-hidden shadow">
-					<div>
+					<div id="person-info">
 						<img alt="..."
 						src="../../media/ShubhaSharma.jpg"
-							class="shadow-lg rounded max-w-full mx-auto"  id="teamimg" />
+							class="shadow-lg rounded max-w-full mx-auto" id="teamimg"/>
 							Paras Jain
 							<p> about him</p>
+							<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-file"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
 					</div>
 				</div>
 			</div>
@@ -460,12 +525,7 @@
 					  C-4, Lal Sain Mandir Marg, Janak Puri, New Delhi, Delhi 110058</p>
 					<h4>Email</h4>
 					<p><a href="mailto:ieee@msit.in">ieee@msit.in</a></p>
-					<p>Visitors:&nbsp;<a href="https://smallseotools.com/visitor-hit-counter/" target="_blank"
-						title="Visitor Hit Counter">
-						<img
-						  src="https://smallseotools.com/counterDisplay?code=78b3aeb71ccd510ce31cfce1eea33e4d&style=0003&pad=5&type=page&initCount="
-						  title="Visitor Hit Counter" Alt="Visitor Hit Counter" border="0">
-					  </a></p>
+
 				  </div>
 				</div>
 			  </div>
@@ -475,7 +535,7 @@
 			<div class="col">
 			  <p>Copyright &copy; <script>
 				  document.write(new Date().getFullYear())
-				</script>, IEEE MSIT <br> Designed and Developed and Maintained by shubha
+				</script>, IEEE WIE MSIT <br> Designed and Developed by shubha Sharma
 			</div>
 
 
